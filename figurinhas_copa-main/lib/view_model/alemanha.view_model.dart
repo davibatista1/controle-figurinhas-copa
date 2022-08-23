@@ -26,6 +26,7 @@ class AlemanhaViewModel with ChangeNotifier {
     this.card1 = card1;
   }
 
+
   Future<void> saveCard2(bool card2) async {
     this.card2 = card2;
   }
